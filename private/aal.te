@@ -9,7 +9,7 @@ binder_use(aal)
 binder_call(aal, binderservicedomain)
 binder_service(aal)
 
-# Purpose : All enforing mode
+# Purpose : All enforing 
 allow aal graphics_device:chr_file { read open ioctl };
 allow aal graphics_device:dir search;
 allow aal aal_service:service_manager add;
